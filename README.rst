@@ -1,4 +1,4 @@
-Template
+TextTemplate
 ========
 
 Very simple text templating views for Python
@@ -17,15 +17,18 @@ Usage
 
     from text_template import TextTemplate as view
 
-    # Red text
-
-    view.render("a_view.txt")
+    print(view.render(
+            template='./a_view.txt',
+            variable="two",
+            another_variable='three'
+        ))
 
 The view uses `$` and `${}` to parse the variables passed to the template for example:
 
     # a_view.txt
 
-    This is plain text with a ${varible_here} and $another_variable_here
+    One, $variable and ${another_variable}
+    New line here
 
 License
 -------
