@@ -11,7 +11,7 @@ setup(
     license='MIT',
     author='sarcoma',
     author_email='sean@orderandchaoscreative.com',
-    description='Library of static methods for colouring text in terminal output',
+    description='Very simple text templating view for Python',
     long_description=README_TEXT,
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
     install_requires=[],

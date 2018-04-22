@@ -1,23 +1,31 @@
 Template
 ========
 
-Static methods to wrap text in ANSI Colours.
+Very simple text templating views for Python
+
+Uses colour variables from AnsiColours package to style text.
 
 Installation
 ------------
 
 Install by running:
 
-    pip install ansi_colours
+    pip install text_template
 
 Usage
 -----
 
-    from ansi_colours import AnsiColours as colour
+    from text_template import TextTemplate as view
 
     # Red text
 
-    colour.red("I'm red")
+    view.render("a_view.txt")
+
+The view uses `$` and `${}` to parse the variables passed to the template for example:
+
+    # a_view.txt
+
+    This is plain text with a ${varible_here} and $another_variable_here
 
 License
 -------
