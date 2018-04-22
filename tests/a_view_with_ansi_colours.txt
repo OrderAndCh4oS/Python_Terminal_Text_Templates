@@ -1,0 +1,2 @@
+${blue}I'm Blue${colour_end}
+${red}I'm Red${colour_end}

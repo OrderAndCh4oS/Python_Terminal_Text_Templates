@@ -1,0 +1,2 @@
+One, $variable and ${another_variable}
+New line here
