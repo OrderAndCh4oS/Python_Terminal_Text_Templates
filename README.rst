@@ -15,15 +15,20 @@ Installation
 
 Install by running:
 
+.. code:: python
+
     pip install text_template
+
+::
 
 Usage
 -----
 
-    from text_template import TextTemplate as view
 
 
 .. code:: python
+
+    from text_template import TextTemplate as view
 
     print(view.render( \
         template='./a_view.txt', \
