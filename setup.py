@@ -6,7 +6,7 @@ readme.close()
 
 setup(
     name='text_template',
-    version='0.1.0',
+    version='0.1.4',
     url='https://github.com/sarcoma/Python_Terminal_Text_Templates',
     license='MIT',
     author='sarcoma',
@@ -14,7 +14,7 @@ setup(
     description='Very simple text templating view for Python',
     long_description=README_TEXT,
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-    install_requires=[],
+    install_requires=['ansi_colours'],
     project_urls={
         'Order & Chaos Creative': 'https://orderandchaoscreative.com',
     }
