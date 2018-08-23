@@ -1,5 +1,10 @@
+.. image:: https://travis-ci.org/sarcoma/Python_Terminal_Text_Templates.svg?branch=master
+    :target: https://travis-ci.org/sarcoma/Python_Terminal_Text_Templates
+.. image:: https://codecov.io/gh/sarcoma/Python_Terminal_Text_Templates/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/sarcoma/Python_Terminal_Text_Templates
+
 TextTemplate
-========
+============
 
 Very simple text templating views for Python
 
