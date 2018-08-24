@@ -49,7 +49,7 @@ The view uses `$` and `${}` to parse the variables passed to the template for ex
 
 ::
 
-.. _ANSI Colours: https://github.com/sarcoma/Python_ANSI_Colours
+.. _ANSI Colours\: https://github.com/sarcoma/Python_ANSI_Colours
 
 The template automatically passes in ANSI Colours as arguments you can wrap text
 
