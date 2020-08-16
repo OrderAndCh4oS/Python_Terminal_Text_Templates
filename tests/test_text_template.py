@@ -23,7 +23,7 @@ def test_colour():
 
 
 def test_exception():
-    with pytest.raises(ZeroDivisionError) as excinfo:
+    with pytest.raises(OSError) as excinfo:
         view.render(template='no_file.txt')
 
     assert 'Template was not found: no_file.txt' in excinfo.value
