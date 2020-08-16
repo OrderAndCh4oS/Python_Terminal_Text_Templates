@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "text_template"
+version = "1.0.0"
+description = "Very simple text templating view for Python"
+authors = ["Sarcoma <sarcoma@live.co.uk>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+ansi-colours = "0.2.3"
+codecov = "2.0.15"
+coverage = "4.5.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
