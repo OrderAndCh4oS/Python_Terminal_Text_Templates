@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://travis-ci.org/sarcoma/Python_Terminal_Text_Templates.svg?branch=master)](https://travis-ci.org/sarcoma/Python_Terminal_Text_Templates)
+[![codecov](https://codecov.io/gh/sarcoma/Python_Terminal_Text_Templates/branch/master/graph/badge.svg)](https://codecov.io/gh/sarcoma/Python_Terminal_Text_Templates)
 
 # TextTemplate
 
