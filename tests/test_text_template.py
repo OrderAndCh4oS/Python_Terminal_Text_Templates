@@ -25,6 +25,3 @@ def test_colour():
 def test_exception():
     with pytest.raises(OSError) as context:
         view.render(template='no_file.txt')
-
-    assert 'Template was not found: no_file.txt' in str(context.exception)
-
