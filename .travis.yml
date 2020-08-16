@@ -2,8 +2,6 @@ language: python
 python:
   - "3.5"
   - "3.6"
-  - "3.7"
-  - "3.8"
 
 script:
 - coverage run -m unittest tests.test_text_template
@@ -20,7 +18,7 @@ install:
 jobs:
   include:
     - stage: build
-      python: "3.7"
+      python: "3.6"
       script: echo "Starting Pypi build"
       before_deploy:
         # User and password environment variables are set as hidden variables through

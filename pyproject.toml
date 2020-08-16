@@ -10,6 +10,7 @@ python = "^3.5"
 ansi-colours = "0.2.3"
 codecov = "2.0.15"
 coverage = "4.5.1"
+importlib_resources = "^3.0.0"
 
 [tool.poetry.dev-dependencies]
 
