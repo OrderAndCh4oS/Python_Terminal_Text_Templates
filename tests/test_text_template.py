@@ -9,16 +9,18 @@ a_view_with_ansi_colours = pkg_resources.resource_filename('tests', 'tests/a_vie
 
 
 def test_view():
-    assert (view.render(
+    assert view.render(
         template=a_view,
         variable="two",
         another_variable='three'
-    ) == "One, two and three\nNew line here\n")
+    ) == "One, two and three\nNew line here\n"
+
 
 def test_colour():
-    assert (view.render(
+    assert view.render(
         template=a_view_with_ansi_colours
-    ) == "\033[0;36mI'm Blue\033[0m\n\033[0;31mI'm Red\033[0m\n")
+    ) == "\033[0;36mI'm Blue\033[0m\n\033[0;31mI'm Red\033[0m\n"
+
 
 def test_exception():
     with pytest.raises(ZeroDivisionError) as excinfo:
