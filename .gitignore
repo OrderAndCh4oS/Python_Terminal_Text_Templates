@@ -14,5 +14,4 @@ wheels/
 *.egg
 venv/
 .idea/
-/.coverage
 *pycache
