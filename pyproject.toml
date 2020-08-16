@@ -11,6 +11,8 @@ ansi-colours = "0.2.3"
 codecov = "2.0.15"
 coverage = "4.5.1"
 importlib_resources = "^3.0.0"
+pytest = "^6.0.1"
+pytest-cov = "^2.10.1"
 
 [tool.poetry.dev-dependencies]
 
