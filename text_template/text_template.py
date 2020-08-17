@@ -7,6 +7,10 @@ from ansi_colours import AnsiColours
 
 class TextTemplate(AnsiColours):
     @classmethod
+    def hello(cls):
+        return 'hello'
+
+    @classmethod
     def render(cls, template, **kwargs):
         if not os.path.isfile(template):
             raise OSError("Template was not found: " + template)
