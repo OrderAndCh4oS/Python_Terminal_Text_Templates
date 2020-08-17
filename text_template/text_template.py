@@ -6,6 +6,7 @@ from ansi_colours import AnsiColours
 
 
 class TextTemplate(AnsiColours):
+
     @classmethod
     def render(cls, template, **kwargs):
         if not os.path.isfile(template):
